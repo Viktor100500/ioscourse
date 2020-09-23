@@ -1,0 +1,25 @@
+class Dish {
+    var id: String
+    var name: String
+    var price: Double
+    var amount: Int
+}
+
+class RestaurantOrder {
+    var id: String
+    var time: String
+    var dishes: [Dish]
+    var Dish
+    
+    func AmountOf() -> Double {
+        return
+    }
+}
+
+
+
+id - строка, идентификатор заказа,
+time - строка, время открытия заказа,
+dishes - блюда в заказе, массив объектов класса Dish.
+Dish содержит поля:  id, name, price, amount
+У класса RestaurantOrder нужно реализовать метод / свойство, возвращающее полную стоимость заказа.
